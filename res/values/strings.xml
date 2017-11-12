@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KTM Pizza</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_reg">Reg</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <string-array name="Branches">
+        <item>Andheri</item>
+        <item>Airoli</item>
+        <item>Borivali</item>
+        <item>Bandra</item>
+        <item>Bhandup</item>
+        <item>Bombay Central</item>
+        <item>Churchgate</item>
+        <item>CST</item>
+        <item>Chinchpokli</item>
+        <item>Dadar</item>
+        <item>Elphistone</item>
+        <item>Goregaon</item>
+        <item>Grant Road</item>
+        <item>Kurla</item>
+        <item>Khar</item>
+        <item>Kalyan</item>
+        <item>Kandivali</item>
+        <item>Kanjurmarg</item>
+        <item>King\'s Circle</item>
+        <item>Lower Parel</item>
+        <item>Mahim</item>
+        <item>Marine Lines</item>
+        <item>Masjid</item>
+        <item>Matunga</item>
+        <item>Mulund</item>
+        <item>Mankhurd</item>
+        <item>Nahur</item>
+        <item>Naigaon</item>
+        <item>Parel</item>
+        <item>Panvel</item>
+        <item>Santacruz</item>
+        <item>Sandhrust Road</item>
+        <item>Thakurli</item>
+        <item>Tilaknagar</item>
+        <item>Vasai</item>
+        <item>Virar</item>
+        <item>Vashi</item>
+        <item>Vileparle</item>
+        <item>Vidya Vihar</item>
+    </string-array>
+
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_menu_main">MenuMain</string>
+    <string name="title_activity_pizza_margherita">PizzaMargherita</string>
+    <string name="title_activity_pizza_siciliana">PizzaSiciliana</string>
+    <string name="title_activity_pizza_capricciosa">PizzaCapricciosa</string>
+    <string name="title_activity_pizza_boscaiola">PizzaBoscaiola</string>
+    <string name="title_activity_bill">Bill</string>
+    <string name="title_activity_thanku">Thanku</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_allbills">Allbills</string>
+    <string name="title_activity_thankyou">Thankyou</string>
+
+</resources>

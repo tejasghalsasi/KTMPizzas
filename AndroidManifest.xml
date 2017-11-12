@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ktmpizza"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ktmpizza.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.FoodMenu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.Reg"
+            android:label="@string/title_activity_reg" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.MenuMain"
+            android:label="@string/title_activity_menu_main" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.PizzaMargherita"
+            android:label="@string/title_activity_pizza_margherita" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.PizzaSiciliana"
+            android:label="@string/title_activity_pizza_siciliana" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.PizzaCapricciosa"
+            android:label="@string/title_activity_pizza_capricciosa" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.PizzaBoscaiola"
+            android:label="@string/title_activity_pizza_boscaiola" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.Bill"
+            android:label="@string/title_activity_bill" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.Thanku"
+            android:label="@string/title_activity_thanku"
+            android:parentActivityName="com.example.ktmpizza.Bill" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ktmpizza.Bill" />
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.Dashboard"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.Allbills"
+            android:label="@string/title_activity_allbills"
+            android:parentActivityName="com.example.ktmpizza.Dashboard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ktmpizza.Dashboard" />
+        </activity>
+        <activity
+            android:name="com.example.ktmpizza.Thankyou"
+            android:label="@string/title_activity_thankyou"
+            android:parentActivityName="com.example.ktmpizza.Dashboard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ktmpizza.Dashboard" />
+        </activity>
+    </application>
+
+</manifest>
